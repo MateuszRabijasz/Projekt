@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Prosta stronka</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Cześć! Witaj na mojej stronie!</h1>
+	</header>
+	<nav>
+		<h2>Gdzie chcesz się udać?</h2>
+		<h3><ol>
+			<li><a href="main.html">Strona główna </a></li>
+			<li><a href="cowbazie.php">Sprawdź co znajduje się w bazie</a></li>
+		</h3></ol>
+	</nav>
+	<main>
+		<h2>FORMULARZ REJESTRACYJNY</h2>
+		<br>
+		<h3>Wprowadź dane do bazy ;)</h4>
+		<form method="post" action="formularz.php">
+			<b><p>Dane osobowe</p></b>
+			<label>Imię:<br>
+			<input type="text" name="name"><br></label>
+			<label>Nazwisko:<br>
+			<input type="text" name="nazw"><br></label>
+			<label>Adres:<br>
+			<input type="text" name="adr"><br></label>
+			<label>Telefon<br>
+			<input type="number" name="tel"></label>
+
+		<hr>
+		
+		<b><p>Dane logowania</p></b>
+
+		<label>Login:<br>
+			<input type="text" name="log"><br></label>
+			<label>Hasło:<br>
+			<input type="password" name="passwd"><br></label>
+			<label><input type="checkbox" name="ck" checked>Akceptuję <a href="regulamin.html" target="_blank">regulamin</a><br></label>
+			<input type="reset" value="WYCZYŚĆ" >
+			<input type="submit" value="REJESTRUJ" >			
+		</form>	
+	</main>
+	<aside>
+		<h2>Okej to teraz coś o mnie:</h2>
+	
+		<h3> 
+			Jestem młodą pełną energii do pracy i nauki osobą chcącą zdobyć pierwse doświadczenie! Moim marzeniem jest łączenie studiów zaocznych z możliwością pracy aby poszerzać swoje kompetencje.
+		</h3>
+		<br>
+		<h3>
+			Dlatego też chciałbym dołączyć do tego zespołu i mam nadzieję zostać w nim na dłużej :). 
+		</h3>
+		</aside>
+	<footer>
+		<p>Stronę wykonał: Mateusz Rabijasz</p>
+	</footer>
+</body>
+</html>

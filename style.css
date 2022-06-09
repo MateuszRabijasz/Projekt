@@ -1,0 +1,91 @@
+html, body
+{
+	margin: auto;
+	height: 100%;
+	font-family:Sans-serif;
+	background-color:black;
+}
+* {
+	box-sizing: border-box;
+}
+
+header
+{
+	background-color: #3c003c;
+	color: white;
+	font-size: 200%;
+	text-align: center;
+	padding: 10px;
+}
+
+nav
+{
+	background-color: #4f004f;
+	color: white;
+	width: 25%;
+	float: left;
+	height: 100%;	
+}
+
+main
+{
+	width: 50%;
+	float: left;
+	height: 100%;
+	background-color: #292929;
+	color:white;
+}
+aside
+{
+	background-color: #4f004f;
+	color: white;
+	width: 25%;
+	float: left;
+	height: 100%;	
+}
+footer
+{
+	background-color: #280028;
+	color: white;
+	text-align: right;
+	padding: 10px;
+	font-size: 120%;
+
+}
+h3
+{
+	margin: 20px;
+}
+h2
+{
+	text-align: center;
+}
+
+form
+{
+	margin: 20px;
+}
+td,th {
+		border: solid #000 1px;
+		padding: 1px;
+	}
+a:link
+{
+   color: green;
+   text-decoration: none;
+}
+
+a:visited
+{
+   color: green;
+}
+
+a:hover
+{
+   color: blue;
+}
+
+a:active
+{
+   color: red;
+}
